@@ -1,0 +1,19 @@
+{
+	"name" : "ipscan",
+	"title" : "Metascan Online IP Scan",
+	"id" : "nminh@opswat.com",
+	"description" : "Scan All Current Active Network Connections",
+	"author" : "Nhut Phan Minh",
+	"license" : "MPL 2.0",
+	"version" : "0.1",
+	"icon" : "data\\images\\icon.png",
+	"unpack": true,
+	"preferences" : [{
+			"name" : "MScanOnlineAPIKey",
+			"title" : "Metascan Online API Key",
+			"description" : "Get API Key From https://portal.opswat.com",
+			"type" : "string",
+			"value" : "ec43896f7a6595bf4c5a4e0467a3cc3d"
+		}
+	]
+}
